@@ -1,0 +1,21 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#070B14"/><stop offset="100%" stop-color="#101827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#A78BFA"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+<circle cx="1040" cy="60" r="120" fill="#22D3EE" opacity=".08"/>
+<circle cx="1120" cy="245" r="150" fill="#A78BFA" opacity=".07"/>
+<path d="M0 270 C220 220 350 310 560 255 S900 210 1200 265" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".35"/>
+<text x="72" y="92" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="22" letter-spacing="4">SOFTWARE DEVELOPER • ECE</text>
+<text x="70" y="158" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">VISHWABHUSHAN P SUDHAKAR</text>
+<rect x="72" y="182" width="360" height="3" rx="2" fill="url(#accent)" filter="url(#glow)"/>
+<text x="72" y="225" fill="#22D3EE" font-family="Segoe UI,Arial,sans-serif" font-size="23">Python • Data Analysis • Web • AI • IoT</text>
+<text x="72" y="266" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="17">Building data-driven applications and interactive experiences.</text>
+<text x="72" y="292" fill="#64748B" font-family="Consolas,monospace" font-size="14">&gt; github.com/Vishwa-VB-18</text>
+</svg>
